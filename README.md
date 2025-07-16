@@ -9,12 +9,6 @@ This repository contains a complete pipeline for brain tumor segmentation using 
 - Data: Simulated BRATS-style datasets with T1, T1ce, T2, FLAIR modalities.
 - Output: Tumor segmentation results, visualizations, and evaluation metrics.
 
-## 🧩 Pipeline Components
-- `data_generator.py`: Generates synthetic  BRATS-style MRI scans.
-- `medsam2_simulator.py`: Simulates the MedSAM 2 segmentation model.
-- `evaluator.py`: Evaluates segmentation results using Dice, IoU, Sensitivity, Specificity, Hausdorff.
-- `visualizer.py`: Visualizes segmentation masks, difference maps, and metrics.
-- `main.py`: Full orchestration script for data creation, segmentation, evaluation, and visualization.
 
 ## 🛠️ Installation
 ```bash
