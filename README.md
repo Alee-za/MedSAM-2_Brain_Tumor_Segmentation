@@ -5,9 +5,9 @@ This repository contains a complete pipeline for brain tumor segmentation using 
  The project uses synthetic BRATS-format MRI data for validation, educational experimentation, and proof-of-concept purposes.
 
 ## 🚀 Project Overview
-- **Objective**: Demonstrate MedSAM-2 pipeline on synthetic multi-modal MRI data.
-- **Data**: Simulated BRATS-style datasets with T1, T1ce, T2, FLAIR modalities.
-- **Output**: Tumor segmentation results, visualizations, and evaluation metrics.
+- Objective: Demonstrate MedSAM-2 pipeline on synthetic multi-modal MRI data.
+- Data: Simulated BRATS-style datasets with T1, T1ce, T2, FLAIR modalities.
+- Output: Tumor segmentation results, visualizations, and evaluation metrics.
 
 ## 🧩 Pipeline Components
 - `data_generator.py`: Generates synthetic  BRATS-style MRI scans.
@@ -26,21 +26,6 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-## 📦 File Structure
-```
-MedSAM2-Brain-Tumor/
-├── data_generator.py
-├── medsam2_simulator.py
-├── evaluator.py
-├── visualizer.py
-├── main.py
-├── requirements.txt
-├── results/
-│   ├── evaluation_results.csv
-│   ├── performance_summary.png
-│   └── [BraTS19_xxx_slice_x_comparison.png]
-└── README.md
-```
 
 ## 📊 Evaluation Metrics
 | Metric             | Mean ± Std         |
